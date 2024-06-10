@@ -94,8 +94,6 @@ class loginController extends Controller
             "status" => 200
         ];
 
-
-
         return response()->json($data,200);
     }
 }
